@@ -1,10 +1,12 @@
 #include <iostream>
+#include "LoginMode.h"
 
 using std::string;
 
 bool running = true;
 bool loggedIn = false;
 string mode;
+LoginMode LM();
 
 int main() {
     while (running) {

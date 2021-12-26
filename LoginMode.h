@@ -1,14 +1,20 @@
 //
-// Created by Saad on 2021-12-23.
+// Created by Saad Khan on 2021-12-26.
 //
 
 #ifndef UNTITLED_LOGINMODE_H
 #define UNTITLED_LOGINMODE_H
 
+#include <string>
 
-class LoginMode {
+using std::string;
+
+class LoginMode{
+    LoginMode() {};
+    bool LoginModeOn = false;
+    void userInfo();
+    void logout();
+
 
 };
-
-
 #endif //UNTITLED_LOGINMODE_H
