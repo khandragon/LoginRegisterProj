@@ -6,7 +6,6 @@ using std::string;
 bool running = true;
 bool loggedIn = false;
 string mode;
-LoginMode LM();
 
 int main() {
     while (running) {
@@ -17,6 +16,10 @@ int main() {
             std::cin >> mode;
             if (mode == "Login") {
                 std::cout << "Login mode" << std::endl;
+                LoginMode *LM = new LoginMode;
+                LM->userInfo();
+                LM->logout();
+                delete LM;
             } else if (mode == "Register") {
                 std::cout << "Register mode" << std::endl;
             } else {

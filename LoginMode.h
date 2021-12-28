@@ -9,12 +9,13 @@
 
 using std::string;
 
-class LoginMode{
-    LoginMode() {};
+class LoginMode{ ;
     bool LoginModeOn = false;
+
+public:
+    LoginMode() {};
     void userInfo();
     void logout();
-
 
 };
 #endif //UNTITLED_LOGINMODE_H
