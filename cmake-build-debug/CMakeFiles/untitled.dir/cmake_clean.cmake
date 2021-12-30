@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled.dir/LoginMode.cpp.o"
-  "CMakeFiles/untitled.dir/LoginMode.cpp.o.d"
+  "CMakeFiles/untitled.dir/Login/LoginMode.cpp.o"
+  "CMakeFiles/untitled.dir/Login/LoginMode.cpp.o.d"
+  "CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o"
+  "CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o.d"
   "CMakeFiles/untitled.dir/main.cpp.o"
   "CMakeFiles/untitled.dir/main.cpp.o.d"
   "untitled"

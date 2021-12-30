@@ -78,10 +78,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/saadkhan/Documents/LoginRegisterProj/LoginMode.cpp">
+		<Unit filename="/Users/saadkhan/Documents/LoginRegisterProj/Login/LoginMode.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/saadkhan/Documents/LoginRegisterProj/LoginMode.h">
+		<Unit filename="/Users/saadkhan/Documents/LoginRegisterProj/Login/LoginMode.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/saadkhan/Documents/LoginRegisterProj/Register/RegisterMode.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/saadkhan/Documents/LoginRegisterProj/Register/RegisterMode.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/saadkhan/Documents/LoginRegisterProj/main.cpp">

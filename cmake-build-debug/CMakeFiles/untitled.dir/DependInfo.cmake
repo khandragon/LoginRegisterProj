@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/saadkhan/Documents/LoginRegisterProj/LoginMode.cpp" "CMakeFiles/untitled.dir/LoginMode.cpp.o" "gcc" "CMakeFiles/untitled.dir/LoginMode.cpp.o.d"
+  "/Users/saadkhan/Documents/LoginRegisterProj/Login/LoginMode.cpp" "CMakeFiles/untitled.dir/Login/LoginMode.cpp.o" "gcc" "CMakeFiles/untitled.dir/Login/LoginMode.cpp.o.d"
+  "/Users/saadkhan/Documents/LoginRegisterProj/Register/RegisterMode.cpp" "CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o" "gcc" "CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o.d"
   "/Users/saadkhan/Documents/LoginRegisterProj/main.cpp" "CMakeFiles/untitled.dir/main.cpp.o" "gcc" "CMakeFiles/untitled.dir/main.cpp.o.d"
   )
 

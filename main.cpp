@@ -1,10 +1,10 @@
 #include <iostream>
-#include "LoginMode.h"
+#include "Login/LoginMode.h"
+#include "Register/RegisterMode.h"
 
 using std::string;
 
 bool running = true;
-bool loggedIn = false;
 bool loginStatus = false;
 string mode;
 
@@ -20,11 +20,12 @@ int main() {
             if (loginStatus) {
                 LM->startSystem();
             }
-            running=false;
+            running = false;
             delete LM;
         } else if (mode == "Register") {
             std::cout << "Register mode" << std::endl;
-            running=false;
+            RegisterMode *RM = new RegisterMode;
+            RM->registerUser();
         } else {
             std::cout << "Sorry could  you try say that again?" << std::endl;
         }

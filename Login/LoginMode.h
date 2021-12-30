@@ -6,6 +6,8 @@
 #define UNTITLED_LOGINMODE_H
 
 #include <string>
+#include <iostream>
+#include <fstream>
 
 using std::string;
 
@@ -26,6 +28,8 @@ private:
     void userInfo();
 
     void logout();
+
+    bool readFile(string username, string password);
 };
 
 #endif //UNTITLED_LOGINMODE_H

@@ -83,33 +83,49 @@ CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saadkhan/Documents/LoginRegisterProj/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
 
-CMakeFiles/untitled.dir/LoginMode.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/LoginMode.cpp.o: ../LoginMode.cpp
-CMakeFiles/untitled.dir/LoginMode.cpp.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saadkhan/Documents/LoginRegisterProj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/LoginMode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/LoginMode.cpp.o -MF CMakeFiles/untitled.dir/LoginMode.cpp.o.d -o CMakeFiles/untitled.dir/LoginMode.cpp.o -c /Users/saadkhan/Documents/LoginRegisterProj/LoginMode.cpp
+CMakeFiles/untitled.dir/Login/LoginMode.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Login/LoginMode.cpp.o: ../Login/LoginMode.cpp
+CMakeFiles/untitled.dir/Login/LoginMode.cpp.o: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saadkhan/Documents/LoginRegisterProj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Login/LoginMode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Login/LoginMode.cpp.o -MF CMakeFiles/untitled.dir/Login/LoginMode.cpp.o.d -o CMakeFiles/untitled.dir/Login/LoginMode.cpp.o -c /Users/saadkhan/Documents/LoginRegisterProj/Login/LoginMode.cpp
 
-CMakeFiles/untitled.dir/LoginMode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/LoginMode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saadkhan/Documents/LoginRegisterProj/LoginMode.cpp > CMakeFiles/untitled.dir/LoginMode.cpp.i
+CMakeFiles/untitled.dir/Login/LoginMode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Login/LoginMode.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saadkhan/Documents/LoginRegisterProj/Login/LoginMode.cpp > CMakeFiles/untitled.dir/Login/LoginMode.cpp.i
 
-CMakeFiles/untitled.dir/LoginMode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/LoginMode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saadkhan/Documents/LoginRegisterProj/LoginMode.cpp -o CMakeFiles/untitled.dir/LoginMode.cpp.s
+CMakeFiles/untitled.dir/Login/LoginMode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Login/LoginMode.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saadkhan/Documents/LoginRegisterProj/Login/LoginMode.cpp -o CMakeFiles/untitled.dir/Login/LoginMode.cpp.s
+
+CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o: ../Register/RegisterMode.cpp
+CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saadkhan/Documents/LoginRegisterProj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o -MF CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o.d -o CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o -c /Users/saadkhan/Documents/LoginRegisterProj/Register/RegisterMode.cpp
+
+CMakeFiles/untitled.dir/Register/RegisterMode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Register/RegisterMode.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saadkhan/Documents/LoginRegisterProj/Register/RegisterMode.cpp > CMakeFiles/untitled.dir/Register/RegisterMode.cpp.i
+
+CMakeFiles/untitled.dir/Register/RegisterMode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Register/RegisterMode.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saadkhan/Documents/LoginRegisterProj/Register/RegisterMode.cpp -o CMakeFiles/untitled.dir/Register/RegisterMode.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.o" \
-"CMakeFiles/untitled.dir/LoginMode.cpp.o"
+"CMakeFiles/untitled.dir/Login/LoginMode.cpp.o" \
+"CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled: CMakeFiles/untitled.dir/main.cpp.o
-untitled: CMakeFiles/untitled.dir/LoginMode.cpp.o
+untitled: CMakeFiles/untitled.dir/Login/LoginMode.cpp.o
+untitled: CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/saadkhan/Documents/LoginRegisterProj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/saadkhan/Documents/LoginRegisterProj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

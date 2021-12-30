@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled main.cpp LoginMode.cpp LoginMode.h)
+add_executable(untitled main.cpp Login/LoginMode.cpp Login/LoginMode.h Register/RegisterMode.cpp Register/RegisterMode.h)

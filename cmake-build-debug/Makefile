@@ -129,29 +129,53 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-LoginMode.o: LoginMode.cpp.o
-.PHONY : LoginMode.o
+Login/LoginMode.o: Login/LoginMode.cpp.o
+.PHONY : Login/LoginMode.o
 
 # target to build an object file
-LoginMode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/LoginMode.cpp.o
-.PHONY : LoginMode.cpp.o
+Login/LoginMode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Login/LoginMode.cpp.o
+.PHONY : Login/LoginMode.cpp.o
 
-LoginMode.i: LoginMode.cpp.i
-.PHONY : LoginMode.i
+Login/LoginMode.i: Login/LoginMode.cpp.i
+.PHONY : Login/LoginMode.i
 
 # target to preprocess a source file
-LoginMode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/LoginMode.cpp.i
-.PHONY : LoginMode.cpp.i
+Login/LoginMode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Login/LoginMode.cpp.i
+.PHONY : Login/LoginMode.cpp.i
 
-LoginMode.s: LoginMode.cpp.s
-.PHONY : LoginMode.s
+Login/LoginMode.s: Login/LoginMode.cpp.s
+.PHONY : Login/LoginMode.s
 
 # target to generate assembly for a file
-LoginMode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/LoginMode.cpp.s
-.PHONY : LoginMode.cpp.s
+Login/LoginMode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Login/LoginMode.cpp.s
+.PHONY : Login/LoginMode.cpp.s
+
+Register/RegisterMode.o: Register/RegisterMode.cpp.o
+.PHONY : Register/RegisterMode.o
+
+# target to build an object file
+Register/RegisterMode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Register/RegisterMode.cpp.o
+.PHONY : Register/RegisterMode.cpp.o
+
+Register/RegisterMode.i: Register/RegisterMode.cpp.i
+.PHONY : Register/RegisterMode.i
+
+# target to preprocess a source file
+Register/RegisterMode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Register/RegisterMode.cpp.i
+.PHONY : Register/RegisterMode.cpp.i
+
+Register/RegisterMode.s: Register/RegisterMode.cpp.s
+.PHONY : Register/RegisterMode.s
+
+# target to generate assembly for a file
+Register/RegisterMode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Register/RegisterMode.cpp.s
+.PHONY : Register/RegisterMode.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,9 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled"
-	@echo "... LoginMode.o"
-	@echo "... LoginMode.i"
-	@echo "... LoginMode.s"
+	@echo "... Login/LoginMode.o"
+	@echo "... Login/LoginMode.i"
+	@echo "... Login/LoginMode.s"
+	@echo "... Register/RegisterMode.o"
+	@echo "... Register/RegisterMode.i"
+	@echo "... Register/RegisterMode.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -10,6 +10,7 @@ bool LoginMode::loginUser() {
     std::cin >> username;
     std::cout << "Password?" << std::endl;
     std::cin >> password;
+    readFile(username, password);
     std::cout << "Thank you for your patience." << std::endl;
     LoginModeOn = true;
     return true;
@@ -28,7 +29,7 @@ void LoginMode::logout() {
 }
 
 void LoginMode::startSystem() {
-    while(LoginModeOn) {
+    while (LoginModeOn) {
         std::cout << "Welcome " + username << std::endl;
         std::cout << "Print User Information or Logout? (1 or 2)" << std::endl;
         std::cin >> systemChoice;
@@ -38,4 +39,17 @@ void LoginMode::startSystem() {
             logout();
         }
     }
+}
+
+bool LoginMode::readFile(string username, string password) {
+    string myText;
+
+    std::ifstream MyReadFile("important.txt");
+    std::cout << "Thank you Reading File" << std::endl;
+
+    while (getline(MyReadFile, myText)) {
+        std::cout << myText;
+    }
+
+    MyReadFile.close();
 }

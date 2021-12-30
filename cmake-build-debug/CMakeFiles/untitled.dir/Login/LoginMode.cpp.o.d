@@ -1,5 +1,5 @@
-CMakeFiles/untitled.dir/main.cpp.o: \
-  /Users/saadkhan/Documents/LoginRegisterProj/main.cpp \
+CMakeFiles/untitled.dir/Login/LoginMode.cpp.o: \
+  /Users/saadkhan/Documents/LoginRegisterProj/Login/LoginMode.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
@@ -235,5 +235,4 @@ CMakeFiles/untitled.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iomanip \
-  /Users/saadkhan/Documents/LoginRegisterProj/Register/RegisterMode.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iomanip
