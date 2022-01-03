@@ -10,10 +10,9 @@ bool LoginMode::loginUser() {
     std::cin >> username;
     std::cout << "Password?" << std::endl;
     std::cin >> password;
-    readFile(username, password);
     std::cout << "Thank you for your patience." << std::endl;
     LoginModeOn = true;
-    return true;
+    return readFile(username, password);
 }
 
 void LoginMode::userInfo() {
@@ -43,13 +42,14 @@ void LoginMode::startSystem() {
 
 bool LoginMode::readFile(string username, string password) {
     string myText;
-
+    string loginUser;
+    string loginPass;
     std::ifstream MyReadFile("important.txt");
-    std::cout << "Thank you Reading File" << std::endl;
 
     while (getline(MyReadFile, myText)) {
-        std::cout << myText;
+        loginUser=myText.substr(0, myText.find(';'));
+        loginPass=myText.substr(myText.find(';')+1, myText.length());
     }
-
     MyReadFile.close();
+    return loginUser == username && loginPass == password;
 }

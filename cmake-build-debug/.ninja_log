@@ -1,3 +1,14 @@
 # ninja log v5
 2	271	6619945634995169	CMakeFiles/untitled.dir/main.cpp.obj	5a2f9bd632bc8805
 271	365	6619945635936025	untitled.exe	310ba568ef055114
+2	334	6628839236440813	CMakeFiles/untitled.dir/main.cpp.obj	5a2f9bd632bc8805
+16	336	6628839236450822	CMakeFiles/untitled.dir/Register/RegisterMode.cpp.obj	3d91f331507951c4
+13	340	6628839236500867	CMakeFiles/untitled.dir/Login/LoginMode.cpp.obj	e765f4027f63a066
+340	469	6628839237766955	untitled.exe	9725cc886d48920e
+3	315	6628840947729482	CMakeFiles/untitled.dir/Login/LoginMode.cpp.obj	e765f4027f63a066
+316	415	6628840948700316	untitled.exe	9725cc886d48920e
+3	325	6628842340189522	CMakeFiles/untitled.dir/Register/RegisterMode.cpp.obj	3d91f331507951c4
+326	434	6628842341265446	untitled.exe	9725cc886d48920e
+3	318	6628845258934453	CMakeFiles/untitled.dir/Login/LoginMode.cpp.obj	e765f4027f63a066
+318	424	6628845259960334	untitled.exe	9725cc886d48920e
+3	328	6628864244433227	CMakeFiles/untitled.dir/Login/LoginMode.cpp.obj	e765f4027f63a066
